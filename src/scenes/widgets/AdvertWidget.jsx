@@ -20,7 +20,7 @@ const AdvertWidget = () => {
         width="100%"
         height="auto"
         alt="ad"
-        src="http://localhost:3001/assets/info4.jpeg"
+        src="https://helogram-app.onrender.com/assets/info4.jpeg"
         style={{ borderRadius: "0.75rem", margin: "0.75rem 0" }}
       />
       <FlexBetween>
@@ -28,8 +28,7 @@ const AdvertWidget = () => {
         <Typography color={medium}>mikacosmetics.com</Typography>
       </FlexBetween>
       <Typography color={medium} m="0.5rem 0">
-        your pathway for stunning and immaculate beauty 
-        and shining like light.
+        your pathway for stunning and immaculate beauty and shining like light.
       </Typography>
     </WidgetWrapper>
   );
